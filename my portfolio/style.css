@@ -1,0 +1,114 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    text-align: center;
+    align-content: center;
+    padding-top: 20px;
+    /* border: 1px solid rgba(90, 85, 85, 0.863); */
+   }
+   .menu ul{
+    display: flex;
+    gap: 4rem;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    /* color: white; */
+    color: rgb(151, 135, 135);
+}
+menu ul li a:hover{
+    color: blue;
+}
+.hero img{
+    width: 80%;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #d1d4f0, #e9baba);
+    background-repeat: repeat;
+    background-size: 100%;
+    /* -webkit-backdrop-filter: blur(20px); */
+    z-index: 10;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 30px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: rgba(250, 220, 225, 0.815); */
+}
+.img{
+    width: 80%;
+    border-radius: 5px;
+}
+.img img{
+    padding-top: 0;
+    margin-left: 40px;
+}
+.txt{
+    width: 120%;
+    text-align: left;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 80px;
+}
+.txt .about{
+    width: 70%;
+    margin-top: 20px;
+}
+.txt h1{
+    margin-top: 50px;
+}
+.carrer{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(245, 235, 218, 0.726); */
+}
+.my-carrer{
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 0px; 
+}
+.achevement{
+    width: 100%;
+    text-align: left;
+}
+.skill{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 40px 40px 180px;
+    margin-top: 50px;
+    /* background-color: blue; */
+}
+.my-skill{
+    border: 1px solid rgb(163, 159, 159);
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.my-skill:hover{
+    background-color: pink;
+    color: white;
+}
